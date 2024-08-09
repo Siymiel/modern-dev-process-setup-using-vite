@@ -70,13 +70,4 @@ For more information, check out the [Vite documentation](https://vitejs.dev/guid
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### Key Sections Explained:
-
-- **Overview**: Briefly explains the shift from `create-react-app` to `Vite`.
-- **Why Vite**: Lists the advantages of using Vite over create-react-app.
-- **Why Yarn**: Describes the benefits of using Yarn as a package manager.
-- **Getting Started**: Provides step-by-step instructions for setting up the project.
-- **Conclusion**: Summarizes the benefits of using the modern development process.
-- **License**: A section to indicate the licensing of the project.
+This documentation is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

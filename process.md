@@ -1,18 +1,18 @@
 # Modern Development Process
 
-In the past, we used ***create-react-app*** to develop our React applications, but things have changed, and we are now using **Vite** to set up our development environment.
+In the past, we used `create-react-app` to develop our React applications, but things have changed, and we are now using **Vite** to set up our development environment.
 
-### Why *create-react-app* is Not Ideal
+### Why create-react-app is Not Ideal
 
 While **create-react-app** has served developers well in the past, it comes with some limitations:
 
-1. **Build Performance**: The build times in *create-react-app* can be slower, especially as applications grow. Vite leverages native ES modules, leading to faster build and refresh times.
+1. **Build Performance**: The build times in create-react-app can be slower, especially as applications grow. `Vite` leverages native ES modules, leading to faster build and refresh times.
 
-2. **Configuration Flexibility**: *create-react-app* abstracts many configurations, which can make it harder to customize the setup for specific needs. Vite provides a more flexible configuration, allowing developers to fine-tune their development environment.
+2. **Configuration Flexibility**: create-react-app abstracts many configurations, which can make it harder to customize the setup for specific needs. `Vite` provides a more flexible configuration, allowing developers to fine-tune their development environment.
 
-3. **Development Server**: The development server in *create-react-app* can be less efficient. Vite offers hot module replacement (HMR) that is faster and more reliable, enhancing the developer experience.
+3. **Development Server**: The development server in create-react-app can be less efficient. `Vite` offers hot *module replacement* (HMR) that is faster and more reliable, enhancing the developer experience.
 
-4. **Outdated Dependencies**: As time passes, *create-react-app*'s underlying tooling may lag behind newer technologies, whereas Vite is designed to stay up-to-date with the latest developments in the JavaScript ecosystem.
+4. **Outdated Dependencies**: As time passes, create-react-app's underlying tooling may lag behind newer technologies, whereas `Vite` is designed to stay up-to-date with the latest developments in the `JavaScript` ecosystem.
 
 ### Vite
 
@@ -37,7 +37,17 @@ Now, let’s set up your environment using `Vite`:
    ```
 
 2. Choose the library you want to use. In our case, we are using **React**.
-
+   - Other options include:
+   
+        ```bash
+        Vanilla
+        Vue
+        Preact
+        Lit
+        Svelte
+        Solid
+        Qwik
+        ```
 3. Select how you want to continue with your development, either using **JavaScript** or **TypeScript**.
 
 4. `cd` into the `app` folder:
@@ -50,6 +60,11 @@ Now, let’s set up your environment using `Vite`:
 
    ```bash
    yarn
+   ```
+6. Run the application:
+
+   ```bash
+   yarn dev
    ```
 
 And that’s all you need to begin your development process!
